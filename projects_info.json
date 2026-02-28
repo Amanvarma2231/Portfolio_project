@@ -1,0 +1,16 @@
+[
+  {
+    "id": 4,
+    "title": "Voice-Sentiment12",
+    "image_url": null,
+    "live_link": "https://voice-sentiment12.vercel.app/",
+    "github_link": "https://github.com/Amanvarma2231/Voice-Sentiment12"
+  },
+  {
+    "id": 2,
+    "title": "Skill Development",
+    "image_url": "/static/images/projects/skill_dev.png",
+    "live_link": "https://skill-development-eosin.vercel.app/",
+    "github_link": "https://github.com/Amanvarma2231/skill-development"
+  }
+]

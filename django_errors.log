@@ -1,0 +1,39 @@
+ERROR 2026-02-28 04:08:24,170 log 14420 21096 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view core.views.home didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-02-28 04:08:24,179 log 14420 21096 "GET / HTTP/1.1" 500 71979
+ERROR 2026-02-28 04:08:28,966 log 14420 21096 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view core.views.home didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-02-28 04:08:28,968 log 14420 21096 "GET / HTTP/1.1" 500 71979
+ERROR 2026-02-28 04:08:52,497 log 14420 21096 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMAN VARMA\OneDrive\Desktop\portfolio_project\.venv-1\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view core.views.home didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-02-28 04:08:52,498 log 14420 21096 "GET / HTTP/1.1" 500 71979

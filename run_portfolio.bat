@@ -1,0 +1,13 @@
+@echo off
+echo Starting Aman Varma Portfolio...
+echo.
+echo 1. Activating Virtual Environment...
+call .venv-1\Scripts\activate.bat
+echo 2. Running Migrations...
+python manage.py migrate
+echo 3. Starting Server...
+echo Your portfolio will be available at http://127.0.0.1:8000
+echo Admin panel is at http://127.0.0.1:8000/admin
+echo.
+python manage.py runserver
+pause
