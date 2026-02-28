@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>New Contact Form Submission</h2>
+    <p><strong>From:</strong> {{ message.name }} ({{ message.email }})</p>
+    <p><strong>Subject:</strong> {{ message.subject }}</p>
+    <p><strong>Message:</strong></p>
+    <p>{{ message.message|linebreaks }}</p>
+    <hr>
+    <p>Received at: {{ message.created_at }}</p>
+</body>
+</html>
